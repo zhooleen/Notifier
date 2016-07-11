@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/zhooleen/Notifier.git", :commit => "e8bc51120c91ed649bb2230e4f506d2c543013f2" }
+  s.source       = { :git => "https://github.com/zhooleen/Notifier.git", :commit => "1f7a46ea59691c9f9cd3016fb9b1d7a4a2afdd2a" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
