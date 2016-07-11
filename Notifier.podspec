@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Notifier"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "Automatically remove observer and avoid repeat registration for NSNotificationCenter & KVO in Objective-C"
 
   # This description is used to generate tags and improve search results.
@@ -63,7 +63,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  # s.platform     = :ios, "5.0"
+  s.platform     = :ios, "7.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
