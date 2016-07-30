@@ -15,8 +15,6 @@
 		3E4BB3B91D326F110062955D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E4BB3B81D326F110062955D /* Assets.xcassets */; };
 		3E4BB3BC1D326F110062955D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E4BB3BA1D326F110062955D /* LaunchScreen.storyboard */; };
 		3E4BB3CF1D327BF60062955D /* NSObject+Notifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4BB3CE1D327BF60062955D /* NSObject+Notifier.m */; };
-		3E4BB3D21D32807A0062955D /* RTNotificationObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4BB3D11D32807A0062955D /* RTNotificationObserver.m */; };
-		3E4BB3D51D32808F0062955D /* RTKeyValueObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4BB3D41D32808F0062955D /* RTKeyValueObserver.m */; };
 		3E4BB3D81D3281D70062955D /* NSNotificationCenter+Notifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4BB3D71D3281D70062955D /* NSNotificationCenter+Notifier.m */; };
 		3E4BB3DC1D329A940062955D /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4BB3DB1D329A940062955D /* ViewController2.m */; };
 /* End PBXBuildFile section */
@@ -37,10 +35,6 @@
 		3E4BB3C71D3275840062955D /* RTObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RTObserver.h; path = Classes/RTObserver.h; sourceTree = "<group>"; };
 		3E4BB3CD1D327BF60062955D /* NSObject+Notifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+Notifier.h"; path = "Classes/NSObject+Notifier.h"; sourceTree = "<group>"; };
 		3E4BB3CE1D327BF60062955D /* NSObject+Notifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Notifier.m"; path = "Classes/NSObject+Notifier.m"; sourceTree = "<group>"; };
-		3E4BB3D01D32807A0062955D /* RTNotificationObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RTNotificationObserver.h; path = Classes/RTNotificationObserver.h; sourceTree = "<group>"; };
-		3E4BB3D11D32807A0062955D /* RTNotificationObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RTNotificationObserver.m; path = Classes/RTNotificationObserver.m; sourceTree = "<group>"; };
-		3E4BB3D31D32808F0062955D /* RTKeyValueObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RTKeyValueObserver.h; path = Classes/RTKeyValueObserver.h; sourceTree = "<group>"; };
-		3E4BB3D41D32808F0062955D /* RTKeyValueObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RTKeyValueObserver.m; path = Classes/RTKeyValueObserver.m; sourceTree = "<group>"; };
 		3E4BB3D61D3281D70062955D /* NSNotificationCenter+Notifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSNotificationCenter+Notifier.h"; path = "Classes/NSNotificationCenter+Notifier.h"; sourceTree = "<group>"; };
 		3E4BB3D71D3281D70062955D /* NSNotificationCenter+Notifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSNotificationCenter+Notifier.m"; path = "Classes/NSNotificationCenter+Notifier.m"; sourceTree = "<group>"; };
 		3E4BB3D91D3293330062955D /* Notifier.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Notifier.h; path = Classes/Notifier.h; sourceTree = "<group>"; };
@@ -119,10 +113,6 @@
 			children = (
 				3E4BB3D91D3293330062955D /* Notifier.h */,
 				3E4BB3C71D3275840062955D /* RTObserver.h */,
-				3E4BB3D01D32807A0062955D /* RTNotificationObserver.h */,
-				3E4BB3D11D32807A0062955D /* RTNotificationObserver.m */,
-				3E4BB3D31D32808F0062955D /* RTKeyValueObserver.h */,
-				3E4BB3D41D32808F0062955D /* RTKeyValueObserver.m */,
 				3E4BB3CD1D327BF60062955D /* NSObject+Notifier.h */,
 				3E4BB3CE1D327BF60062955D /* NSObject+Notifier.m */,
 				3E4BB3D61D3281D70062955D /* NSNotificationCenter+Notifier.h */,
@@ -262,13 +252,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E4BB3D21D32807A0062955D /* RTNotificationObserver.m in Sources */,
 				3E4BB3B41D326F100062955D /* ViewController.m in Sources */,
 				3E4BB3D81D3281D70062955D /* NSNotificationCenter+Notifier.m in Sources */,
 				3E4BB3B11D326F100062955D /* AppDelegate.m in Sources */,
 				3E4BB3CF1D327BF60062955D /* NSObject+Notifier.m in Sources */,
 				3E4BB3DC1D329A940062955D /* ViewController2.m in Sources */,
-				3E4BB3D51D32808F0062955D /* RTKeyValueObserver.m in Sources */,
 				3E4BB3AE1D326F100062955D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,6 +7,4 @@ target 'Notifier' do
 
   # Pods for Notifier
 
-   pod 'KeyPath'
-
 end

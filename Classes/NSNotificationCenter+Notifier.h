@@ -11,8 +11,8 @@
 
 @interface NSNotificationCenter (Notifier)
 
-- (id<RTObserver>) observerForName:(NSString*)name sender:(id)sender withTarget:(id)target action:(SEL)action;
-
 - (id<RTObserver>) observerForName:(NSString*)name sender:(id)sender withBlock:(RTNotificationBlock)block;
+
+- (id<RTObserver>) observerForName:(NSString*)name withBlock:(RTNotificationBlock)block;
 
 @end

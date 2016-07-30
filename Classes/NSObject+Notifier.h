@@ -12,6 +12,16 @@
 
 @interface NSObject (Notifier)
 
+/**
+ * 1. Hold the return value by strong reference
+ * 2. Invoke [observer startObserve] to start observing, then invoke [observer stopObserve] to stop observing.
+ * 3. When ARC invokes [observer dealloc], stop observing automatically.
+ * 4. When the observed object, that is self, deallocated, stop observing automatically too.
+ */
+
 - (id<RTObserver>) observerForKeyPath:(NSString*)keyPath context:(NSString*)context options:(NSKeyValueObservingOptions)options withBlock:(RTKVOBlock)block;
 
+- (id<RTObserver>) observerForKeyPath:(NSString*)keyPath withBlock:(RTKVOBlock)block;
+
 @end
+
